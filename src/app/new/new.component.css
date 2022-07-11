@@ -1,0 +1,92 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #fceef3;
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: 400;
+  text-align: left;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  color: #ee9fc8;
+}
+svg{
+  color: #e8ebf1;
+}
+svg:hover{
+  color: #ee9fc8;
+}
+.nav{
+  float: right;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px ;
+}
+header a.nav-link{
+  color: whitesmoke;
+}
+header .modal a.nav-link{
+  color: black;
+}
+header a.nav-link:hover{
+  color:  #ee9fc8;
+}
+header .btn-outline-success{
+  color: #e5e5e5;
+  border-color: #e5e5e5;
+}
+header span{
+  color: #e5e5e5;
+}
+header span:hover{
+  color: #ee9fc8;
+}
+.nav-item{
+  list-style: none;
+}
+/*Footer */
+footer , footer span , footer path
+{
+  color: #e5e5e5;
+}
+footer a{
+  color: #e5b4e1;
+}
+footer a:hover , footer path:hover , h3:hover
+{
+  color: #ec93c1;
+}
+footer i{
+  font-size: 20px;
+  color: #687971;
+  float: right;
+  padding: 10px;
+}
+footer i:hover{
+  color: #ec93c1;
+}
+#giohang{
+  float: right;
+  margin-right: 50px;
+}
+main .container:first-of-type img{
+  height: 400px;
+}
+
+
+.card{
+  margin: 15px auto;
+}
+a{
+  color: #e5e5e5;
+}
+a:hover{
+  color: #ee9fc8;
+}

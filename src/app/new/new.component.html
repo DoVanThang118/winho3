@@ -1,0 +1,13 @@
+<main>
+  <div class="container">
+    <div class="card bg-dark text-white" *ngFor="let n of news;let i = index;">
+      <a href="https://vnexpress.net/dong-ho-phillipe-auguste-danh-cho-cac-quy-ong-4471155.html">
+        <img src="{{ n.fields.newImage }}" class="card-img" alt="{{ n.fields.newTitle }}">
+        <div class="card-img-overlay">
+          <h3 class="card-title">{{ n.fields.newTitle }}</h3>
+          <p class="card-text" >{{ n.fields.newContent }}</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</main>
